@@ -18,7 +18,7 @@ Monobehaviour 클래스 자체도 Object, Component, Behaviour와 같은 클래�
 
 Monobehaviour 컴포넌트를 포함한 오브젝트는 다음과 같은 생명주기를 가지게 됩니다.
 
-![monobehaviour_liefcycle](https://github.com/mindh77/mindh77.github.io/blob/master/img/Monobehaviour%20lifecycle.png)
+![monobehaviour_liefcycle](./img/Monobehaviour%20lifecycle.png)
 
 
 
