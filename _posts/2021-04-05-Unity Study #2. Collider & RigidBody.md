@@ -14,7 +14,7 @@ Collider 컴포넌트는 물리 충돌 처리를 위한 오브젝트의 형태�
 
 형태에 따라 BoxCollider, SphereCollider, CapsuleCollider 등이 있으며, 오브젝트의 메시의 형태와는 별개로 다양한 형태로 구성할 수 있습니다. (아래 그림에서 왼쪽부터 Box, Sphere, Capsule)
 
-![Collider](https://user-images.githubusercontent.com/28036481/113551299-5fcf9100-962f-11eb-89d4-f2b085b2b8b1.jpg){:.aligncenter}
+![Collider](https://user-images.githubusercontent.com/28036481/113551299-5fcf9100-962f-11eb-89d4-f2b085b2b8b1.jpg){: .align-center}
 
 1. Static Collider
     바닥이나 벽과 같이 고정된 요소를 만들기 위해 사용되는 콜라이더를 의미합니다. 이처럼 사용할 때에는 Rigidbody 컴포넌트 없이 사용할 수 있습니다. 정적 콜라이더는 프로그램이 돌아가는 동안 위치 변화가 없어야 하고, 만약 위치에 변화가 생기면 물리 엔진 성능에 큰 영향을 미친다고 알려져 있습니다. 물리 엔진은 정적 콜라이더는 절대로 움직이거나 변하지 않는다고 가정하고 최적화를 진행하기 때문입니다. 위치 변화 뿐만 아니라 활성화 / 비활성화, 스케일에 변화 또한 없어야 합니다. 
