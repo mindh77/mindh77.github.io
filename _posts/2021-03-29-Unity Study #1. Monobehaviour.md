@@ -1,10 +1,9 @@
 ---
 layout: single
-typora-copy-images-to: .\img
----
 categories:
 - Unity
-
+typora-copy-images-to: .\img
+---
 
 ## Unity Study \#1. Monobehaviour 클래스란 무엇일까?
 
