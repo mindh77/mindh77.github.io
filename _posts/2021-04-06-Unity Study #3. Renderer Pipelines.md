@@ -49,7 +49,7 @@ HDRP 또한 SRP로 주로 트리플 A 퀄리티의 게임, 자동차 데모, 건
 
 유니티 매뉴얼에서는 좀 더 자세한 설명이 되어 있지 않아, OpenGL의 rendering pipeline에 대해서 좀 더 알아보겠습니다. 
 
-![RenderingPipeline](https://user-images.githubusercontent.com/28036481/113686344-1ef47c80-9702-11eb-8499-c9b62e6f429f.png)
+![RenderingPipeline](https://user-images.githubusercontent.com/28036481/113686344-1ef47c80-9702-11eb-8499-c9b62e6f429f.png){: .align-center}
 
 위의 과정을 좀 더 자세하게 설명하면,
 
