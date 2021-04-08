@@ -16,7 +16,7 @@ categories:
 
 오일러 각은 3차원 상의 물체가 놓인 방향을 표시하기 위한 각도입니다. 
 
-![250px-Orientation_coordonnees_spheriques_generalisees](https://user-images.githubusercontent.com/28036481/113983976-8b4bb900-9885-11eb-98ab-4de0f7100450.png)
+![250px-Orientation_coordonnees_spheriques_generalisees](https://user-images.githubusercontent.com/28036481/113983976-8b4bb900-9885-11eb-98ab-4de0f7100450.png){: .align-center}
 
 위의 그림과 같이 어떠한 물체의 방향을 <u>3차원 공간 좌표계의 회전</u>으로 표현하는 것입니다. 즉, z축을 기준으로 x-y좌표축이 얼마만큼 회전했는지, 회전된 x축을 기준으로 회전된 z-y 좌표축이 얼마만큼 회전했는지, 회전된 z축을 기준으로 회전된 x-y 좌표축이 얼마만큼 회전했는지를 표현해주는 것이라고 볼 수 있습니다.
 
@@ -68,7 +68,7 @@ $$
 
 특히, Slerp는 일반적인 Lerp와 다른 점이 있습니다. 
 
-![Slerp](https://user-images.githubusercontent.com/28036481/113990966-f6e55480-988c-11eb-815f-726bd25cc9df.PNG)
+![Slerp](https://user-images.githubusercontent.com/28036481/113990966-f6e55480-988c-11eb-815f-726bd25cc9df.PNG){: .align-center}
 
 일반적으로 interpolation을 할 때 Lerp를 사용하게 되면, 위처럼 회전을 표현하는 원 위에 점이 표현되는 것이 아니라 점과 점 사이의 직선 중간을 표현하게 됩니다. Slerp는 이에 반해 회전을 표현하는 원 위에 보간되는 것을 보장해줍니다.
 
