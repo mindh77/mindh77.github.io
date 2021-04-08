@@ -29,16 +29,20 @@ use_math: true
 
 쿼터니언은 (x,y,z,w) 네 가지의 요소로 이루어져 있고, (x,y,z)는 벡터 w는 스칼라를 의미합니다. 이 사원수를 이용해서 회전 정보를 표현할 수 있습니다.
 
- 어떠한 회전축(u)를 기준으로 쎄타만큼 회전하기위한 쿼터니언은 다음과 같이 만들 수 있습니다.
+ 어떠한 회전축(u)를 기준으로 쎄타만큼 회전하기위한 쿼터니언은 다음과 같이 만들 수 있습니다. 
 $$
-\hat {q} = (cos{\frac{\theta}{2}}, sin{\frac{\theta}{2}}u),		|u|=1
+\begin{aligned}
+\\\hat {q} = (cos{\frac{\theta}{2}}, sin{\frac{\theta}{2}}u),		|u|=1\\
+\end{aligned}
 $$
 위와 같은 쿼터니언을 활용해서 특정 점(p)를 아래와 같이 회전시킬 수 있습니다. 
 $$
-\mbox{p} = (x,y,z) \\
+\begin{aligned}
+\\\mbox{p} = (x,y,z) \\
 p = (0, \mbox{p})\\
 q = (cos{\frac{\theta}{2}}, sin{\frac{\theta}{2}}u)\\
-p' = qpq^* ( * 켤레 복소수)
+p' = qpq^* ( * 켤레 복소수)\\
+\end{aligned}
 $$
 위의 식을 통해 점 p는 새로운 점 p'로 회전된 상태가 됩니다. 
 
