@@ -2,6 +2,7 @@
 layout: single
 categories:
  - Unity
+use_math: true
 ---
 
 ## Unity Study \#4. Quaternion
